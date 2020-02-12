@@ -1,0 +1,153 @@
+     * {
+         padding: 0;
+         margin: 0;
+         font-family: 'Lato', sans-serif;
+         font-weight: 350;
+     }
+     
+     .main {
+         margin-top: 1%;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-evenly;
+         width: 100%;
+         height: 70vh;
+     }
+     
+     .col {
+         height: 100%;
+         width: 46%;
+         background: #F2F1EA;
+     }
+     
+     .task {
+         overflow: auto;
+     }
+     
+     .box {
+         margin-top: 5%;
+         margin-left: 4%;
+     }
+     
+     h2 {
+         margin-top: 5%;
+         margin-bottom: 2%;
+     }
+     
+     #texto1 {
+         width: 95%;
+         height: 5vh;
+     }
+     
+     #texto2 {
+         width: 95%;
+         height: 30vh;
+     }
+     
+     #submit {
+         height: 5vh;
+         width: 12%;
+         margin-top: 2%;
+     }
+     /*NAVEGADOR*/
+     
+     nav {
+         height: 25vh;
+         background: url(/ToDoList_JS_LocalStorage/img/—Pngtree—contrast\ gradient\ geometric\ lines\ background_730505.jpg);
+         display: flex;
+         justify-content: space-evenly;
+     }
+     
+     #textoBusqueda {
+         width: 100%;
+         border: 1px solid #ddd;
+         height: 5vh;
+     }
+     
+     i {
+         color: gray;
+         margin: 0% 1%;
+         font-size: 1.3em;
+         padding: 1%;
+     }
+     
+     .searchbox {
+         margin-top: 5%;
+         width: 60%;
+         display: flex;
+         flex-direction: row;
+         justify-content: flex-end;
+     }
+     /*CADA TAREA TIENE ESTE ESTILO*/
+     
+     .tarea {
+         display: flex;
+         width: 91%;
+         margin: 4%;
+         justify-content: space-evenly;
+         flex-direction: column;
+         -webkit-box-shadow: 1px 1px 5px 0px rgba(2, 43, 58, 1);
+         -moz-box-shadow: 1px 1px 5px 0px rgba(2, 43, 58, 1);
+         box-shadow: 1px 1px 5px 0px rgba(2, 43, 58, 1);
+     }
+     
+     .tituloTarea {
+         display: flex;
+         flex-direction: row;
+         padding: 1%;
+     }
+     
+     .active,
+     .tituloTarea:hover {
+         background-color: #ccc;
+         cursor: pointer;
+     }
+     
+     .textoTarea {
+         width: 90%;
+         padding: 1%;
+         margin-left: 2%;
+         margin-right: 2%;
+         text-align: left;
+     }
+     
+     .lineThrough {
+         text-decoration: line-through;
+     }
+     
+     .detalles {
+         width: 100%;
+         height: auto;
+         background-color: #f1f1f1;
+         margin: 1% 0%;
+         display: none;
+         overflow: hidden;
+     }
+     
+     .textoDetalles {
+         margin: 2%;
+         word-break: break-all;
+         font-size: 0.9em;
+     }
+     
+     li {
+         list-style: none;
+     }
+     /*ICONOS*/
+     
+     .fa-times-circle:hover {
+         color: #F8333C;
+     }
+     
+     .fa-circle:hover {
+         color: #33f725;
+     }
+     
+     .fa-check-circle {
+         color: #2EE021;
+     }
+     
+     .fa-search {
+         padding-top: 8px;
+         margin-left: -4%;
+     }

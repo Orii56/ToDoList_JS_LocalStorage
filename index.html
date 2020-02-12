@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5aa12a1e89.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!--AQUI ESTA EL NAVBAR-->
+    <nav>
+
+        </div>
+        <div class="searchbox">
+            <input type="text" id="textoBusqueda" onkeyup="search()" placeholder="Buscar tarea">
+            <i class="fas fa-search">
+            </i>
+        </div>
+    </nav>
+
+    <!--AQUI ESTAN LAS DOS COLUMNAS-->
+    <section class="main">
+
+        <!--AQUI ESTA COLUMNA 1-->
+        <div class="col">
+
+            <div class="box">
+                <div class="titlebox">
+                    <h2>Título de la Actividad</h2>
+                    <input type="text" id="texto1" placeholder="Título de la Tarea" name="titulo"><br>
+                </div>
+                <div class="textbox">
+                    <h2>Descripción de la Actividad</h2>
+                    <textarea id="texto2" placeholder="Detalles de la tarea"></textarea><br>
+                    <button type="button" id="submit" onclick="checkToDo()">SUBMIT</button>
+
+                </div>
+            </div>
+        </div>
+
+        <!--AQUI ESTA COLUMNA 2-->
+        <div class="col task">
+            <ul id="list">
+            </ul>
+        </div>
+
+    </section>
+
+    <script src="tareas.js"></script>
+</body>
+
+
+</html>
